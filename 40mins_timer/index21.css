@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 15, 14);
+    
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+.container{
+
+    width:350px;
+    height: 170px;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: rgba(122, 120, 120, 0.25) 0px 54px 55px, rgba(135, 135, 135, 0.12) 0px -12px 30px, rgba(114, 114, 114, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(103, 101, 101, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+    
+}
+button{
+width: 80px;
+height: 40px;
+margin: 10px;
+border-radius: 10px;
+border: none;
+font-size: 16px;
+
+
+}
+.start{
+    background-color: rgb(150, 241, 211);
+}
+.start:hover{
+    background-color: rgb(58, 233, 174);
+}
+.stop{
+    background-color: rgb(255, 73, 116);
+}
+.stop:hover{
+    background-color: rgb(247, 45, 92);
+}
+.reset{
+    background-color: rgb(174, 241, 150);
+}
+.reset:hover{
+    background-color: rgb(125, 255, 78);
+}
